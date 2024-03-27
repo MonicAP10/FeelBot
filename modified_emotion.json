@@ -1,0 +1,12 @@
+{
+  "modified_positive_emotions": {
+    "Activo": 0.24,
+    "Alerta": 0.6,
+    "Interesado": 0.24,
+    "Nervioso": 0.24
+  },
+  "modified_negative_emotions": {
+    "Molesto": -0.6,
+    "Irritable": -0.6
+  }
+}
