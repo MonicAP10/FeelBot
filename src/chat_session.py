@@ -5,7 +5,7 @@ def initialize_session():
     Inicializa la sesión del chat.
     """
     if "messages" not in st.session_state:
-        st.session_state["messages"] = [{"role": "assistant", "content": "Hello, I'm ChatGPT Emotional, ¿Can I help you?"}]
+        st.session_state["messages"] = [{"role": "assistant", "content": "Hola, soy FeelBot, tu asistente emocional ¿En qué te puedo ayudar?"}]
 
 def display_messages(messages):
     """

@@ -4,13 +4,13 @@ sys.path.append('.')
 import streamlit as st
 from src.chat_session import initialize_session, display_messages, get_user_input
 from src.user_input_processor import process_user_input
-from src.gpt_model import get_gpt_response
-from src.emotion_extractor import extract_emotions
-from src.emotion_modifier import modify_emotions
+
+
 
 def main():
-    st.title("FeelBot")
+    st.title("FeelBot: Tu asistente emocional")
     initialize_session()
+
     display_messages(st.session_state["messages"])
 
     user_input = get_user_input()
