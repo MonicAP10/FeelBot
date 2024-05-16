@@ -9,7 +9,7 @@ from src.emotion_extractor import extract_emotions
 from src.emotion_modifier import modify_emotions
 
 def main():
-    st.title("Chatbot Emotional")
+    st.title("FeelBot")
     initialize_session()
     display_messages(st.session_state["messages"])
 
