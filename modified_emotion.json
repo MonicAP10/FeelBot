@@ -1,12 +1,9 @@
 {
-  "modified_positive_emotions": {
-    "Activo": 0.24,
-    "Alerta": 0.6,
-    "Interesado": 0.24,
-    "Nervioso": 0.24
-  },
+  "modified_positive_emotions": {},
   "modified_negative_emotions": {
-    "Molesto": -0.6,
-    "Irritable": -0.6
+    "Angustiado": -1.16,
+    "Molesto": -1.0,
+    "Hostil": -1.33,
+    "Asustado": -1.49
   }
 }

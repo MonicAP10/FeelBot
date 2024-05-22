@@ -6,11 +6,9 @@ from src.chat_session import initialize_session, display_messages, get_user_inpu
 from src.user_input_processor import process_user_input
 
 
-
 def main():
-    st.title("FeelBot: Tu asistente emocional")
+    st.title("FeelBot")
     initialize_session()
-
     display_messages(st.session_state["messages"])
 
     user_input = get_user_input()
