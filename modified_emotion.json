@@ -1,9 +1,19 @@
 {
-  "modified_positive_emotions": {},
+  "modified_positive_emotions": {
+    "Determinado": 1,
+    "Interesado": 0.58
+  },
   "modified_negative_emotions": {
-    "Angustiado": -1.16,
-    "Molesto": -1.0,
-    "Hostil": -1.33,
-    "Asustado": -1.49
+    "Inquieto": -0.97,
+    "Molesto": -1.17
+  },
+  "predominant_emotion": {
+    "emotion": "Determinado",
+    "value": 1,
+    "percentage": 63.29
+  },
+  "lowest_emotion": {
+    "emotion": "Molesto",
+    "value": -1.17
   }
 }
