@@ -1,4 +1,4 @@
-# ChatEmotional
+# FeelBot
 
 Este es un proyecto de chatbot que utiliza OpenAI GPT-3.5 para respuestas emocionales.
 
